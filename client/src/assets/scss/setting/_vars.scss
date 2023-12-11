@@ -1,0 +1,48 @@
+:root {
+    --mainfont-paybook: "payBooc";
+
+    --black: #000;
+    --black100: #1b1b1b;
+    --black200: #3a3a3a;
+    --black300: #6b6b6b;
+    --black400: #9c9c9c;
+    --black500: #cbcbcb;
+    --black600: #e5e5e5;
+
+    --white: #fff;
+    --white100: #f0f0f0;
+    --white200: #cacaca;
+    --white300: #b8b8b8;
+    --white400: #8e8e8e;
+    --white500: #767676;
+    
+    --mcolorpp: rgb(79, 79, 79);
+    --mcolor: rgb(84, 84, 84);
+    --mcolor40: rgb(190, 190, 190); 
+    --mcolor30: rgb(233, 233, 233);
+    --mcolor20: rgb(218, 218, 218);
+    --mcolor10: rgb(248, 248, 248); 
+    --mcolor0: #ffffff;
+
+    --spotBd: #ddd;
+    --spotBg: #f9f9f9;
+    --soptClr: #555;
+
+    // 폰트 셋팅
+    font-family: var(--mainfont-paybook);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    // 폰트 최적화
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    
+    @media (max-width: 800px) {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+}

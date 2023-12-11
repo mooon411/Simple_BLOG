@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "payBooc";
+    font-weight: 300;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Light.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Light.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Light.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Light.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Light.ttf") format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: "payBooc";
+    font-weight: 500;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Medium.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Medium.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Medium.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Medium.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Medium.ttf") format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: "payBooc";
+    font-weight: 700;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Bold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Bold.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Bold.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Bold.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-Bold.ttf") format("truetype");
+    font-display: swap;
+} 
+@font-face {
+    font-family: "payBooc";
+    font-weight: 800;
+    font-style: normal;
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-ExtraBold.eot");
+    src: url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-ExtraBold.eot?#iefix") format("embedded-opentype"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-ExtraBold.woff2") format("woff2"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-ExtraBold.woff") format("woff"),
+         url("https://cdn.jsdelivr.net/gh/websfont/payBooc/payBooc-ExtraBold.ttf") format("truetype");
+    font-display: swap;
+} 
+.payBooc {
+    font-family: "payBooc";
+}
+.payBooc300 {
+    font-family: "payBooc";
+    font-weight: 300;
+}
+.payBooc500 {
+    font-family: "payBooc";
+    font-weight: 500;
+}
+.payBooc700 {
+    font-family: "payBooc";
+    font-weight: 700;
+}
+.payBooc800 {
+    font-family: "payBooc";
+    font-weight: 800;
+}

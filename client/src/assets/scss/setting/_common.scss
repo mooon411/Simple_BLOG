@@ -1,0 +1,49 @@
+body {
+    background-color: var(--white);
+    color: var(--black);
+}
+main {
+    min-height: 90vh;
+}
+
+// 각 섹션 공통 요소
+section {
+    padding: 40px;
+
+    @media (max-width: 800px){
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+}
+
+// 로딩 소스
+.isLoading {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.isLoaded {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+// page header
+.page_header {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0;
+    background-color: var(--black100);
+    h3 {
+        color: var(--white);
+        font-size: 2.3rem;
+        margin-bottom: .5rem;
+    }
+    p {
+        color: var(--white400);
+        font-size: 1rem;
+    }
+}

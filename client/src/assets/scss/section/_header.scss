@@ -1,0 +1,52 @@
+#header {
+    width: 100%;
+    height: 67px;
+    padding: 0 100px;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left{
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 24px;
+            padding: 15px;
+            font-family: var(--mainfont-paybook);
+            margin-right: 2rem;
+        }
+    
+        .nav {
+            margin-right: 10px;
+            ul {
+                display: flex;
+                li {
+                    a {
+                        font-size: 1rem;
+                        color: var(--white300);
+                        display: inline-block;
+                        padding: 10px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .right {
+        ul {
+            display: flex;
+
+            li {
+                a {
+                    font-size: 14px;
+                    color: var(--white300);
+                    display: inline-block;
+                    padding: 10px 20px;
+                }
+            }
+        }
+    }
+
+    
+}
